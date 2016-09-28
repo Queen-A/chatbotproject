@@ -23,6 +23,8 @@ function speak() {
 
   question = $("#input").val();
 
+  question= question.toLowerCase();
+
   $("#chat-area").prepend(question + "<br>");
 
   answer = questionConversion[question];
@@ -39,7 +41,6 @@ function speak() {
     $("#chat-area").prepend(answer + "<br>");
   }
 
-  var now = new Date(Date.now());
 
 
 
