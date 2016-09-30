@@ -1,10 +1,23 @@
 .header {
-    background-color: #E0FFE0;
+    background-color: #80e5ff;
 }
 
 h4 {
     padding: 0px;
     margin: 0px;
+    background-color: #80e5ff;
+}
+
+.container {
+  background-color: #8c8c8c;
+  width: 100%;
+  height: 100%;
+  margin-bottom: auto;
+
+}
+
+h1 {
+  color:whitesmoke;
 }
 
 .btn-talk {
@@ -15,7 +28,7 @@ h4 {
     color: #ffffff;
     font-size: 14px;
     font-weight: normal;
-    background: #4caae8;
+    background: #000000;
     padding: 5px;
     text-decoration: none;
     width: 18%;
@@ -24,7 +37,7 @@ h4 {
 }
 
 .btn-talk:hover {
-    background: #4fbcff;
+    background: #80e5ff;
     text-decoration: none;
 }
 
@@ -58,6 +71,8 @@ h4 {
     border: 1px solid #C0C2C5;
     padding: 10px;
     font-size: 18px;
+    background-color: #80e5ff;
+    color: whitesmoke;
 }
 
 #question-area {
