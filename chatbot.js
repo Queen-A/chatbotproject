@@ -28,11 +28,11 @@ function speak() {
   $("#chat-area").prepend(question + "<br>");
 
   var answerArray = questionConversion[question];
-  var answer =  Math.floor((Math.random() * answerArray.length));
 
 
 
-  if(answer == undefined) {
+
+  if(answerArray == undefined) {
 
     var fallback = ["I don't have an answer to your question!", "Why are you asking me nothing?", "Are you crazy, I don't have an answer!", "You bafoon!"];
     var rand = Math.floor((Math.random() * fallback.length));
@@ -40,10 +40,10 @@ function speak() {
 
   }
   else {
+    var rand =  Math.floor((Math.random() * answerArray.length));
+    $("#chat-area").prepend(answerArray[rand] + "<br>");
 
-    $("#chat-area").prepend(answer + "<br>");
-  }
-
+}
 }
 
 $(document).keydown(function(e) {

@@ -1,11 +1,14 @@
 .header {
     background-color: #80e5ff;
+    font-family: 'Ruslan Display', cursive;
+    color:black;
 }
 
 h4 {
     padding: 0px;
     margin: 0px;
     background-color: #80e5ff;
+    font-family: 'Ruslan Display', cursive;
 }
 
 .container {
@@ -17,14 +20,16 @@ h4 {
 }
 
 h1 {
-  color:whitesmoke;
+  color:#000000;
+  font-family: 'Ruslan Display', cursive;
+
 }
 
 .btn-talk {
     -webkit-border-radius: 5;
     -moz-border-radius: 5;
     border-radius: 5px;
-    font-family: Arial;
+    font-family: 'Ruslan Display', cursive;
     color: #ffffff;
     font-size: 14px;
     font-weight: normal;
@@ -50,6 +55,7 @@ h1 {
     height: 450px;
     font-size: 16px;
     font-weight: bold;
+    font-family: 'Ruslan Display', cursive;
 }
 
 #chat-area-wrapper {
@@ -58,7 +64,7 @@ h1 {
     border-radius: 5px;
     height: 450px;
     overflow: scroll;
-    border: 1px solid #C0C2C5;
+    border: 1px solid #000000;
 }
 
 #chat-area {
@@ -68,11 +74,12 @@ h1 {
     height:100%;
     overflow: hidden;
     height: 450px;
-    border: 1px solid #C0C2C5;
+    border: 1px solid #000000;
     padding: 10px;
+    font-family: 'Ruslan Display', cursive;
     font-size: 18px;
-    background-color: #80e5ff;
-    color: whitesmoke;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 #question-area {
@@ -83,14 +90,14 @@ h1 {
     overflow: scroll;
     padding: 2px;
     margin: 0px;
-    border: 1px solid #C0C2C5;
+    border: 1px solid #000000;
     width: 100%;
 }
 
 #input {
   background-color: #fff;
-  border: 0px solid #C0C2C5;
-  font-family: sans-serif;
+  border: 0px solid #000000;
+  font-family: 'Ruslan Display', cursive;
   color: #000;
   padding: 5px;
   margin-right: 3px;
@@ -108,4 +115,5 @@ h1 {
     border: 0px solid #C0C2C5;
     font-size: 16px;
     font-weight: bold;
+    font-family: 'Ruslan Display', cursive;
 }
